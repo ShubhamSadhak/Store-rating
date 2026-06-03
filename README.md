@@ -62,7 +62,8 @@ PORT=3000
 # PostgreSQL connection string (e.g. Neon, Cloud SQL, etc.)
 # If left empty, the application runs automatically using local `database.json`
 DATABASE_URL="postgresql://username:password@hostname/databasename?sslmode=require"
-
+# JWT Configuration
+JWT_SECRET="Write your own Secret "
 # Gemini API Key (Required for interactive AI extensions)
 GEMINI_API_KEY="your_api_key_here"
 ```
