@@ -1,0 +1,6 @@
+{
+  "name": "Store Rating Platform",
+  "description": "A full-stack store rating platform with role-based access control, store feedback, search, filters, and detailed ratings administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

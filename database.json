@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Platform Administrator Main Account",
+      "email": "admin@platform.com",
+      "password": "$2b$10$vteCq3JtnwUCczYER6AbF.cYZ7TsKJBd1t0O1n5ZHLy.l29A/r05m",
+      "address": "100 Admin Plaza Boulevard, Suite 500, Tech City CA 94016",
+      "role": "ADMIN",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "owner-1",
+      "name": "Fresh Market Store Owner Representative",
+      "email": "owner1@stores.com",
+      "password": "$2b$10$Gn9lBcSQSgQbl7JQdco.C.CXhQuSjX5QhM.pGEd2gj6VheJukU0SO",
+      "address": "234 Organic Avenue, Farmville VT 05401",
+      "role": "OWNER",
+      "createdAt": "2026-01-10T00:00:00.000Z",
+      "updatedAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "owner-2",
+      "name": "Cyber Cafe Store Owner Administrator",
+      "email": "owner2@stores.com",
+      "password": "$2b$10$EK6DKWZzzNP61aM4lPEwAuVPF2pujJg2yrIipG35XRJo0jIJ9MirK",
+      "address": "12 Pixel Path, Silicon Quarter, Austin TX 78701",
+      "role": "OWNER",
+      "createdAt": "2026-01-12T00:00:00.000Z",
+      "updatedAt": "2026-01-12T00:00:00.000Z"
+    },
+    {
+      "id": "user-1",
+      "name": "Jane Elizabeth Doe Consumer Client",
+      "email": "jane.doe@example.com",
+      "password": "$2b$10$8BZAw6HnpYj6oe9BXqUZ7e2uCIFslFnrRjBaKWz3FGEOaxCYiiYJi",
+      "address": "742 Evergreen Terrace, Springfield OR 97477",
+      "role": "USER",
+      "createdAt": "2026-01-15T00:00:00.000Z",
+      "updatedAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "user-2",
+      "name": "Alexander Hamilton Tester Citizen",
+      "email": "alex.hamilton@example.com",
+      "password": "$2b$10$4nFJ6xO3i6tySvn2qVHk2u4aGzRt.c.irrgyDVV4QsMPUupD8ggrm",
+      "address": "57 Wall Street Quarter, Financial Zone, New York NY 10005",
+      "role": "USER",
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "updatedAt": "2026-02-01T00:00:00.000Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "Fresh Foods Organic Market",
+      "email": "freshfoods@organic.com",
+      "address": "234 Organic Avenue, Farmville VT 05401",
+      "ownerId": "owner-1",
+      "createdAt": "2026-01-11T00:00:00.000Z",
+      "updatedAt": "2026-01-11T00:00:00.000Z"
+    },
+    {
+      "id": "store-2",
+      "name": "Cyber Cafe Pixel & Brews",
+      "email": "cybercafe@brews.com",
+      "address": "12 Pixel Path, Silicon Quarter, Austin TX 78701",
+      "ownerId": "owner-2",
+      "createdAt": "2026-01-13T00:00:00.000Z",
+      "updatedAt": "2026-01-13T00:00:00.000Z"
+    },
+    {
+      "id": "store-3",
+      "name": "Borders Book Nook & Coffee",
+      "email": "books@borders.com",
+      "address": "456 Literature Lane, Readstown MA 02111",
+      "ownerId": "owner-1",
+      "createdAt": "2026-01-20T00:00:00.000Z",
+      "updatedAt": "2026-01-20T00:00:00.000Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "rating-1",
+      "userId": "user-1",
+      "storeId": "store-1",
+      "rating": 5,
+      "createdAt": "2026-02-05T10:00:00.000Z",
+      "updatedAt": "2026-02-05T10:00:00.000Z"
+    },
+    {
+      "id": "rating-2",
+      "userId": "user-1",
+      "storeId": "store-2",
+      "rating": 4,
+      "createdAt": "2026-02-06T11:30:00.000Z",
+      "updatedAt": "2026-02-06T11:30:00.000Z"
+    },
+    {
+      "id": "rating-3",
+      "userId": "user-2",
+      "storeId": "store-1",
+      "rating": 3,
+      "createdAt": "2026-02-10T14:15:00.000Z",
+      "updatedAt": "2026-02-10T14:15:00.000Z"
+    }
+  ]
+}

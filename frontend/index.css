@@ -1,0 +1,84 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,650;0,800;0,900;1,400&family=Space+Grotesk:wght@500;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-50: #ffffff;
+  --color-brand-100: #f4f4f5;
+  --color-brand-500: #000000;
+  --color-brand-600: #000000;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Custom Blocky Scrollbars for Bold Typography theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-left: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border: 2px solid #ffffff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+/* Neo-brutalist / Bold Typography Custom styles */
+.neo-border {
+  border: 2px solid #000000;
+}
+.neo-border-sm {
+  border: 1.5px solid #000000;
+}
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+.neo-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+.neo-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.1s ease;
+}
+.neo-button:hover:not(:disabled) {
+  background-color: #000000;
+  color: #ffffff;
+}
+.neo-button:active:not(:disabled) {
+  transform: translate(1px, 1px);
+}
+.neo-button-primary {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.1s ease;
+}
+.neo-button-primary:hover:not(:disabled) {
+  background-color: #ffffff;
+  color: #000000;
+}
